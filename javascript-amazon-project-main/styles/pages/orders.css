@@ -1,3 +1,16 @@
+body{
+  font-size: 15px;
+  margin-bottom: 9px;
+  font-family: bebas Neue, arial;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
 .main {
   max-width: 850px;
   margin-top: 90px;
@@ -26,7 +39,7 @@
 }
 
 .order-header {
-  background-color: rgb(149, 4, 45);
+  background-color: rgb(20, 20, 20);
   border: 1px solid rgb(213, 217, 217);
   color: rgb(207, 216, 97);
   display: flex;

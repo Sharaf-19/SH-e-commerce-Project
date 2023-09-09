@@ -1,3 +1,17 @@
+body{
+  font-size: 15px;
+  margin-bottom: 9px;
+  font-family: bebas Neue, arial;
+  font-size: 15px;
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  white-space: nowrap;
+}
+
 .main {
   max-width: 1100px;
   padding-left: 30px;
@@ -70,12 +84,12 @@
 }
 
 .delivery-date {
-  color: rgb(118, 24, 0);
+  color: rgb(244, 234, 232);
   font-weight: 700;
   font-size: 19px;
   margin-top: 5px;
   margin-bottom: 22px;
-  background-color: rgb(174, 176, 100);
+  background-color: rgb(18, 18, 17);
 }
 
 .cart-item-details-grid {
@@ -177,8 +191,7 @@
      The 1st column will take up the remaining space. */
   grid-template-columns: 1fr auto;
 
-  font-size: 15px;
-  margin-bottom: 9px;
+ 
 }
 
 .payment-summary-money {
@@ -203,14 +216,14 @@
 }
 
 .place-order-button {
-  width: 500px;
+  width: 400px;
   padding-top: 12px;
   padding-bottom: 12px;
   border-radius: 8px;
   
   margin-top: 11px;
   margin-bottom: 15px;
-  margin-left: 100px;
+  margin-left: 20px;
   
 }
 

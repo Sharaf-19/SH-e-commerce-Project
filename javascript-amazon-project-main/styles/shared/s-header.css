@@ -1,8 +1,10 @@
 .s-header {
-  background-color: rgb(149, 4, 45);
-  color: white;
+  background-color: rgb(232, 230, 231);
+  color: rgb(13, 13, 13);
   padding-left: 15px;
   padding-right: 15px;
+  padding-bottom: 40px;
+  padding-top: 40px;
 
   display: flex;
   align-items: center;
@@ -36,11 +38,11 @@
 
 
 .s-logo {
-  width: 70px;
+  width: 110px;
   margin-top: 3px;
   margin-left: 40px;
-  height: 40px;
-  background-color: rgb(207, 216, 97);
+  height: 70px;
+  
   border-radius: 15px;
  
 }
@@ -121,14 +123,16 @@
 }
 
 .login-btn:hover{
-  background-color: white;
+  background-color: rgb(12, 12, 12);
+  color: rgb(207, 216, 97);
 }
 .orders-link {
-  color: rgb(207, 216, 97);
+  
+  color: rgb(13, 13, 13);
 }
 .orders-link:hover, .cart-quantity:hover, .cart-link:hover{
   text-decoration: none;
-  color: white;
+  color: rgb(207, 216, 97);
   border: none;
 }
 .returns-text {
@@ -143,14 +147,19 @@
 }
 
 .cart-link {
-  color: rgb(207, 216, 97);
+  color: rgb(12, 12, 12);
   display: flex;
   align-items: center;
   position: relative;
 }
 
+.cart-link:hover{
+  color: rgb(207, 216, 97);
+}
+
 .cart-icon {
-  width: 50px;
+  width: 30px;
+  height: 30px;
 }
 
 .cart-text {
@@ -160,13 +169,13 @@
 }
 
 .cart-quantity {
-  color: rgb(207, 216, 97);
-  font-size: 16px;
+  color: rgb(9, 9, 9);
+  font-size: 14px;
   font-weight: 700;
 
   position: absolute;
-  top: 4px;
-  left: 22px;
+  top: 0px;
+  left: 10px;
   
   width: 26px;
   text-align: center;
